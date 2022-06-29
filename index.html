@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Практика HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <div class="container">
+            <div class="info">
+                <img src="avatar.jpg" alt="моя фотка" class="avatar">
+                <div class="info-text">
+                    <h1>Сергей Сидоренко</h1>
+                    <p>Я учу <strong>IT</strong></p>
+                    <p>Я люблю гулять</p>
+                </div>
+            </div>  
+            <h4>Мои навыки</h4>
+            <a href="https://times.bntu.by/news/3036-ya-inzhener" target="_blank">инженер</a>
+            |
+            <a href="https://kedu.ru/press-center/profgid/prorab-glavnyy-na-stroyke/" target="_blank">прораб</a>
+            |
+            <a href="https://www.kp.ru/putevoditel/obrazovanie/kamenshhik/" target="_blank">каменщик</a>
+            |
+            <a href="https://edunews.ru/professii/obzor/tehnicheskie/montazhnik.html" target="_blank">монтажник</a>
+            |
+            <a href="https://kedu.ru/press-center/profgid/plotnik/" target="_blank">плотник</a>
+              
+            <div class="card bg-yellow">
+                <h2>Мои хобби</h2>
+                <ol type="I" class="list">
+                    <li><a href="https://dic.academic.ru/dic.nsf/ruwiki/13588">Сноуборд</a></li>
+                    <li><a href="https://sub-cult.ru/chtivo/statji/46-chto-takoe-muzyka">Музыка</a></li>
+                    <li><a href="https://dic.academic.ru/dic.nsf/ruwiki/95210">Рыбалка</a></li>
+                    <li><a href="http://mag.fanatic.beer/articles/brewbeer">Пиво</a></li>
+                </ol>
+            </div>
+
+            <div class="card bg-green">
+                <h2>Опыт работы</h2>
+                <table class="table">
+                    <tr>
+                        <th>Контора</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                    <tr>
+                        <td>Теплосети</td>
+                        <td>Инженер</td>
+                        <td>2008-2013гг</td>
+                    </tr>
+                    <tr>
+                        <td>ОмскКарбонМогилёв</td>
+                        <td>Начальник ОКС</td>
+                        <td>2014-2019гг</td>
+                    </tr>
+                    <tr>
+                        <td>МДСК</td>
+                        <td>Руководитель проекта</td>
+                        <td>2019-2022гг</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="card bg-red">
+                <h2>Виды сноубордов</h2>
+                <a href="snowboard.html">Посмотреть список</a>
+            </div>
+
+            <div class="contact">
+                <h2>Связяться со мной</h2>
+                <form action="/">
+                    <div class="form-group">
+                        <label for="text">Ваше пожелание</label>
+                        <textarea id="text" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" placeholder="Вводите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Ваш Email:</label>
+                            <input type="email" id="email" placeholder="Вводите ваш email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label>выбери номер</label>
+                            <input type="number">
+                        </div>
+                        <div class="form-group">
+                            <label>выбери пароль</label>
+                            <input type="password">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-gr">
+                            <label>выбери цвет</label>
+                            <input type="color">
+                        </div>
+                        <div class="form-group">
+                            <label>выбери дату</label>
+                            <input type="date">
+                        </div>
+                    </div>
+
+                    <div class="form-group">                   
+                        <input type="range">
+                    </div>
+ 
+                        <div class="form-group">
+                            <p><input checked type="checkbox" name="car1">имею автомобиль легковой</p>
+                            <p><input type="checkbox" name="car2">имею автомобиль грузовой</p>
+                            <p><input type="checkbox" name="car3">имею мотоцикл</p>
+                            <p><input type="checkbox" name="car4">имею мотороллер</p>
+                            <p><input type="checkbox" name="car5">грёбаный пешеход</p>
+                        </div>
+                        <br>
+                        <div class="form-group"></div>
+                            <p><input checked type="radio" name="bord">увлёкся мягкой доской</p>
+                            <p><input type="radio" name="bord">увлёкся жёстской доской</p>
+                        </div>
+
+
+                        <input class="btn" type="submit" value="Съебаться">
+                    
+                </form>
+            </div>
+                <div class="position">
+                    <div class="box"></div>
+                </div>
+        </div>
+    </body>
+</html>

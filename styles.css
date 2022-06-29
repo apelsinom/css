@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/** {
+    padding: 0;
+    margin: 0;
+}*/
+
+body {
+    background-color: rgb(231, 252, 245);
+    color: darkslategray;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline chartreuse;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px rgb(83, 64, 133)
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-widt: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 50px;
+}
+
+.info p {
+    color: navy;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    /*text-decoration: underline;*/
+    /*text-transform: uppercase;*/
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    
+}
+
+/*Box Model*/
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/*.special {
+    background: red;
+    padding: 10px 20px;
+    padding: 10px 15px 5px 20px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 20;
+    padding: 10px;
+    margin: 20px;
+    border: 15px solid green;
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color: blue;
+}*/
+
+/*.box-model > div {
+    float: left;
+    background: #000;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+}*/
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #ccfdd0;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+    /*list-style: none;*/
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table th {
+    padding-bottom: 20px;
+    color: black;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(1),
+.table td:nth-child(2) {
+    color: darkred;
+}
+
+/*.table tr:nth-child(even) {
+    background: burlywood;
+}*/
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: blue;
+}
+
+.form-gr label {
+    display: block;
+    font-size: 15px;
+    color: blue;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-gr input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group,
+.row > .form-gr {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.btn {
+    background: crimson;
+    padding: 50px 100px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.box {
+    position: fixed;
+    border-radius: 50%;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background: chartreuse;  
+}
